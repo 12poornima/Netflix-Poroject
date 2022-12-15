@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300&display=swap'); */
 
-body {
+/* body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-image: linear-gradient(rgb(68, 66, 66), rgb(249, 17, 17)); */
-}
+
 
 /* * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
 } */
 
-.container {
+/* .container {
     position: relative;
     width: 295px;
     height: 500px;
@@ -23,7 +23,7 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
     background-color: brown;
     overflow: hidden;
-}
+} */
 
 /* .name-box {
     display: flex;
@@ -38,25 +38,25 @@ body {
     background-color: blue;
 } */
 
-.bg-img {
+/* .bg-img {
     position: absolute;
     width: 295px;
     height: 500px;
     background: url(https://w0.peakpx.com/wallpaper/433/718/HD-wallpaper-avatar-poster-avatar-poster-blue-hollywood-fantasy.jpg)center / cover;
 
-}
+} */
 
-.container::before {
+/* .container::before {
 
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 1;
     background: linear-gradient(to top, #2d2d2d 20%, transparent);
-}
+} */
 
-.content {
-    /* position: absolute; */
+/* .content {
+    position: absolute;
     bottom: 0;
     z-index: 2;
     width: 100%;
@@ -66,30 +66,30 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Bebas Neue', cursive;
-}
+} */
 
-form {
+/* form {
     width: 260px;
     height: 200px;
     /* flex-direction: column; */
-    justify-content: space-evenly;
+/* justify-content: space-evenly;
     display: flex;
     margin: 10px 20px;
-}
-
-form input {
+} */
+*/
+/* form input {
     /* border: none; */
-    width: 200px;
+/* width: 200px;
     height: 40px;
     margin: 5px 0;
     background: #0b0b0b;
     padding: 0 10px;
     /* outline: none; */
-    border-radius: 2px;
+/* border-radius: 2px;
     color: bisque;
-}
-
-form input::placeholder {
+} */
+*/ */
+/* form input::placeholder {
     font-family: sans-serif;
     color: white;
 }
@@ -99,9 +99,9 @@ form input::placeholder {
     opacity: 7;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.title {
+/* .title {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -112,9 +112,9 @@ form input::placeholder {
     margin-right: 10px;
     align-items: center;
 
-}
+} */
 
-.img {
+/* .img {
     width: 250px;
     align-items: center;
 }
@@ -131,19 +131,131 @@ form input::placeholder {
     align-items: center;
     margin-bottom: 30px;
 
-}
+} */
 
-.btn {
+/* .btn {
     background-color: red;
     color: white;
     border-radius: 4px;
     align-items: center;
+} */
+
+/* .btn:hover {
+    background-color: #070707;
+} */
+
+/* .para {
+    color: white;
+} */
+
+
+.title {
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+    /* background-color: blue; */
+    color: aliceblue;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+}
+
+body {
+    background-image: url(https://help.nflxext.com/396a2a39-8d34-4260-b07a-6391fe04ded5_what_is_netflix_2_en.png);
+    background-size: cover;
+}
+
+.card {
+    background-color: rgb(24, 23, 23);
+    height: 550px;
+    width: 500px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.btn-contanier {
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+.mid-session {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input1 {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    background-color: rgba(90, 82, 82, );
+
+}
+
+.input2 {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    background-color: rgba(90, 82, 82, );
+}
+
+
+.sign {
+    color: white;
+    margin: 15px;
+    font-family: sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 150px;
+    margin-left: 100px;
+    align-items: center;
 }
 
 .btn:hover {
-    background-color: #070707;
+    background-color: #faa4a8;
+    color: black;
+}
+
+.paras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .para {
+    font-family: sans-serif;
     color: white;
+
 }

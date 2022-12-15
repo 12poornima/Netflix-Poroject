@@ -4,10 +4,12 @@ import NetflixTitle from "./Components/NetflixTitle"
 
 function App() {
   return (
-    <div className="App">
-      <NetflixTitle />
-      <NetflixPartOne />
-      {/* <NetflixBtnPart /> */}
+    <div className="signup-container">
+      <div className="card" >
+        <NetflixTitle />
+        <NetflixPartOne />
+        {/* <NetflixBtnPart /> */}
+      </div>
     </div>
   )
 }
