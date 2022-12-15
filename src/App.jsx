@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NetflixTitle />
       <NetflixPartOne />
-      <NetflixBtnPart />
+      {/* <NetflixBtnPart /> */}
     </div>
   )
 }
